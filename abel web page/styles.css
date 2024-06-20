@@ -1,0 +1,89 @@
+body {
+    /* Linear Gradient Background */
+    background: linear-gradient(135deg, #ff8a00, #e52e71, #3a7bd5);
+    /* Optional: Add a fallback color for older browsers */
+    background-color: #3a7bd5;
+}
+
+
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 0;
+}
+
+#home {
+    background: url('background.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#portfolio .row {
+    margin-top: 20px;
+}
+
+#about img {
+    border-radius: 50%;
+}
+
+#services .col-md-4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: auto;
+}
+
+#contact .col-md-6 p {
+    text-align: center;
+}
+/* Custom Lightbox styling */
+.lb-data .lb-caption {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.lb-data .lb-number {
+    display: none; /* Hide image count */
+}
+.social-icon {
+    font-size: 2em;
+    margin: 0 10px;
+}
+
+.carousel-item {
+    transition: transform 0.5s ease;
+}
+
+#portfolio .row {
+    margin-bottom: 20px;
+}
+
+#portfolio img {
+    max-width: 50%; /* Limit the image width to its container */
+    height: 2px; /* Maintain aspect ratio */
+}
+
+/* Custom navbar styles */
+#customNavbar {
+    background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+}
+
+#customNavbar .navbar-brand,
+#customNavbar .navbar-nav .nav-link {
+    color: white; /* White text color */
+}
